@@ -2,10 +2,6 @@
 
 A Python script to find Snyk group memberships (optionally filtered by role name) and check if those users have any organization memberships.
 
-## ⚠️ **IMPORTANT WARNING**
-
-**This script reads Snyk group and organization membership data. It does not modify or delete any data. Use responsibly and ensure you have proper permissions.**
-
 ## Features
 
 * 🔍 **Group Membership Discovery**: Find all group memberships or filter by role name
@@ -71,7 +67,7 @@ python find_users_without_org_memberships.py \
 | Argument      | Required | Description                             | Default    |
 | ------------- | -------- | --------------------------------------- | ---------- |
 | `--token`     | Yes      | Snyk API token                          | -          |
-| `--group-id`  | No*      | Snyk group ID                           | `GROUP_ID` env var |
+| `--group-id`  | Yes*      | Snyk group ID                           | `GROUP_ID` env var |
 | `--role-name` | No       | Filter group memberships by role name   | None       |
 | `--region`    | No       | Snyk region                             | SNYK-US-01 |
 | `--version`   | No       | API version                             | 2025-11-05 |
