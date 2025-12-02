@@ -7,10 +7,6 @@ A Python script to find Snyk group memberships (optionally filtered by role name
 * 🔍 **Group Membership Discovery**: Find all group memberships or filter by role name
 * 🏢 **Organization Membership Check**: Verify if users have organization memberships
 * 📊 **Detailed Reporting**: Clear console output and optional JSON export
-* 🌍 **Multi-Region Support**: Works with all Snyk regions
-* 📝 **Comprehensive Logging**: Detailed logs of all operations
-* ✅ **Error Handling**: Robust error handling and reporting
-* 🔒 **Safe by Design**: Read-only operations, no data modification
 
 ## Prerequisites
 
